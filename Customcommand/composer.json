@@ -1,0 +1,22 @@
+{
+    "name": "shadab/module-customcommand",
+    "description": "custom admin creation by command",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Shadab Reza",
+            "email": "rshadab25@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Shadab\\Customcommand\\": ""
+        }
+    }
+}

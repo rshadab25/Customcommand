@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author    Shadab <rshadab25@gmail.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Customer\Model\AccountManagement">
+        <plugin name="sdb_customer_model_account_management" type="Shadab\Customcommand\Plugin\Customer\AccountManagement" sortOrder="100" />
+    </type>
+</config>
